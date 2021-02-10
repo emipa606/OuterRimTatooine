@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[1.1] Outer Rim - Tatooine</name>
+  <author>FantasyFan</author>
+  <url>
+  </url>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>FantasyFan.OuterRim.Tatooine</packageId>
+  <description>
+	Tatooine addon for Outer Rim, includes the races and equipment specific to the world of Tatooine.
+	
+	Outer Rim by Neronix17.
+	</description>
+</ModMetaData>
