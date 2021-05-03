@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Outer Rim - Tatooine (Continued)</name>
   <packageId>Mlie.OuterRimTatooine</packageId>
@@ -41,6 +41,8 @@
 Update of FantasyFans mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1950621752
 
+- Added custom body graphics for the Tuskens, new head graphics and one extra robe. Thanks to Delta!
+
 [img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
 [table]
@@ -82,8 +84,11 @@ Update 05/03/2020 - 1.1
 
 
 Other Star Wars Mods:
--Astromech Droids: https://steamcommunity.com/sharedfiles/filedetails/?id=1961087173
--Protocol Droid: https://steamcommunity.com/sharedfiles/filedetails/?id=1963551607
+-Tatooine Factions: https://steamcommunity.com/sharedfiles/filedetails/?id=2390807101
+
+-Protocol Droids: https://steamcommunity.com/sharedfiles/filedetails/?id=2390800621
+-Astromech Droids: https://steamcommunity.com/sharedfiles/filedetails/?id=2390798179
+-Support Droids: https://steamcommunity.com/sharedfiles/filedetails/?id=2390802632
 
 
 If you find things unbalanced, please make suggestions for improvement.
@@ -99,4 +104,3 @@ If you find things unbalanced, please make suggestions for improvement.
 [/list]
 </description>
 </ModMetaData>
-

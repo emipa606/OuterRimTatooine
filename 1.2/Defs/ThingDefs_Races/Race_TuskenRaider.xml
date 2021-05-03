@@ -67,11 +67,12 @@
         <notXenophobistTowards />
         <immuneToXenophobia>false</immuneToXenophobia>
         <alienPartGenerator>
-          <useGenderedHeads>false</useGenderedHeads>
           <aliencrowntypes>
-            <li>TuskenRaider</li>
+            <li>Average_Normal</li>
           </aliencrowntypes>
           <alienbodytypes>
+            <li>Thin</li>
+            <li>Hulk</li>
             <li>Male</li>
             <li>Female</li>
           </alienbodytypes>
@@ -116,7 +117,8 @@
       </generalSettings>
       <graphicPaths>
         <li>
-          <head>Pawn/TuskenRaider/Head/</head>
+          <body>Pawn/TuskenRaider/Bodies/</body>
+          <head>Pawn/TuskenRaider/Heads/</head>
         </li>
         <!--<li>
 					<lifeStageDefs>
@@ -146,6 +148,7 @@
         <whiteApparelList>
           <li>O21_OuterRim_TuskenRaiderRobeA</li>
           <li>O21_OuterRim_TuskenRaiderRobeB</li>
+          <li>O21_OuterRim_TuskenRaiderRobeC</li>
         </whiteApparelList>
         <weaponList>
         </weaponList>
