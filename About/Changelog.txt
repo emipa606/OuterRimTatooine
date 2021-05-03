@@ -1,5 +1,8 @@
 # Changelog for OuterRimTatooine
 
+1.0.2.0 - Added better and extra robe-textures for the Java as well as new body-textures. Thanks Delta!
+
+
 1.0.1.0 - Added custom body graphics for the Tuskens, new head graphics and one extra robe. Thanks to Delta!
 
 

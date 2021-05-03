@@ -78,6 +78,8 @@
             <li>Jawa</li>
           </aliencrowntypes>
           <alienbodytypes>
+            <li>Thin</li>
+            <li>Hulk</li>
             <li>Male</li>
             <li>Female</li>
           </alienbodytypes>
@@ -128,6 +130,7 @@
       <graphicPaths>
         <li>
           <head>Pawn/Jawa/Head/</head>
+          <body>Pawn/TuskenRaider/Bodies/</body>
         </li>
         <!--<li>
 					<lifeStageDefs>
@@ -160,6 +163,7 @@
         </apparelList>
         <whiteApparelList>
           <li>O21_OuterRim_JawaRobe</li>
+          <li>O21_OuterRim_JawaRobeB</li>
         </whiteApparelList>
         <weaponList>
         </weaponList>

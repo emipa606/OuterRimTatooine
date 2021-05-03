@@ -6,7 +6,7 @@
     <description>A long robe for blocking the sun and grit of the outdoors worn by the Jawas on Tatooine.</description>
     <label>robe</label>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/JawaRobe/JawaRobe</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/JawaRobesA/JawaRobe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.05</drawSize>
       <shaderType>CutoutComplex</shaderType>
@@ -36,7 +36,68 @@
         <li>Neck</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/JawaRobe/JawaRobe</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/JawaRobesA/JawaRobe</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>JawaApparel</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>O21_OuterRim_Jawa_Clothing</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>O21_OuterRim_ApparelFabricator</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>100</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>O21_OuterRim_JawaRobeB</defName>
+    <description>A long robe for blocking the sun and grit of the outdoors worn by the Jawas on Tatooine.</description>
+    <label>robe</label>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/JawaRobesB/JawaRobe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.05</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.2</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Arms</li>
+        <li>Torso</li>
+        <li>Legs</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/JawaRobesB/JawaRobe</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
