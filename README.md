@@ -5,7 +5,9 @@
 Update of FantasyFans mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1950621752
 
-- Added custom body graphics for the Tuskens, new head graphics and one extra robe. Thanks to Delta!
+Thanks to Delta:
+- Added custom body graphics for the Tuskens, new head graphics and one extra robe
+- Added custom body graphics for the Jawas, new robe graphics and one extra robe
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 

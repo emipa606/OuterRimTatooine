@@ -1,5 +1,8 @@
 # Changelog for OuterRimTatooine
 
+1.0.3.0 - Had to remove some stuff since Outer-Rim Core is no longer updated
+
+
 1.0.2.0 - Added better and extra robe-textures for the Java as well as new body-textures. Thanks Delta!
 
 
