@@ -1,5 +1,8 @@
 # Changelog for OuterRimTatooine
 
+1.0.4.0 - Fixed the now required smeltable-tag on the ion-blaster
+
+
 1.0.3.0 - Had to remove some stuff since Outer-Rim Core is no longer updated
 
 
