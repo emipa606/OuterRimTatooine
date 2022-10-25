@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Name="BaseTuskenRaiderPawnKind">
+    <defName>TuskenRaider</defName>
+    <label>Tusken Raider</label>
+    <race>Alien_TuskenRaider</race>
+    <combatPower>40</combatPower>
+    <initialWillRange>5~9</initialWillRange>
+    <initialResistanceRange>55~74</initialResistanceRange>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <defaultFactionType>TuskenRaiderPlayerColony</defaultFactionType>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags Inherit="false">
+      <li>TuskenRaiderApparel</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>
+      <min>600</min>
+      <max>600</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>910</min>
+      <max>910</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>TuskenRaiderGun</li>
+      <li>TuskenRaiderWeapons</li>
+    </weaponTags>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>800</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+    <apparelColor>(200,200,200)</apparelColor>
+  </PawnKindDef>
+</Defs>

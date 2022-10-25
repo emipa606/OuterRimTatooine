@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Jawa</defName>
+    <graphicPath>Pawn/Jawa/Head/Jawa</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>TuskenRaider_Female</defName>
+    <graphicPath>Pawn/TuskenRaider/Heads/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>TuskenRaider_Male</defName>
+    <graphicPath>Pawn/TuskenRaider/Heads/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+</Defs>

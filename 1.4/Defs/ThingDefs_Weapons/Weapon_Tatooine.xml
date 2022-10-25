@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Tusken Raider -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>O21_Bullet_Slug</defName>
+    <label>Slug</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.14</armorPenetrationBase>
+      <speed>200</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>O21_TuskenCycler</defName>
+    <label>Tusken Cycler</label>
+    <description>The Tusken Cycler is the standard projectile weapon used by the Tusken Raiders of Tatooine in ranged combat. The cycler was an older design of rifle and fit into the slugthrower class.</description>
+    <graphicData>
+      <texPath>Things/Weapons/TuskenCyclerRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <!-- <recipeUsers Inherit="False"> -->
+      <!-- <li>O21_OuterRim_WeaponsFabricator</li> -->
+      <!-- </recipeUsers> -->
+      <researchPrerequisite>O21_OuterRim_TuskenRaider_Weapons</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <MarketValue>910</MarketValue>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>SWGun</li>
+      <li>TuskenRaiderGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>O21_Bullet_Slug</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>40</range>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>O21_Gaderffii</defName>
+    <label>Gaderffii</label>
+    <description>The gaderffii, or gaffi stick, was the traditional melee weapon of the Tusken Raiders of Tatooine. It was a pole weapon with a spike or blade on one end and some kind of bludgeoning instrument on the other.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Gaderffii</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>TuskenRaiderWeapons</li>
+    </weaponTags>
+    <costList>
+      <Steel>70</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>14000</WorkToMake>
+      <Mass>2</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <equippedAngleOffset>-45</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <armorPenetration>0.50</armorPenetration>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <!-- <recipeUsers Inherit="False"> -->
+      <!-- <li>O21_OuterRim_WeaponsFabricator</li> -->
+      <!-- </recipeUsers> -->
+      <researchPrerequisite>O21_OuterRim_TuskenRaider_Weapons</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <!-- Jawa -->
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>O21_Bullet_Ion_Energy</defName>
+    <label>Ion energy</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Ion_Energy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>EMP</damageDef>
+      <explosionRadius>1</explosionRadius>
+      <explosionDelay>1</explosionDelay>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseMakeableGrenade">
+    <defName>O21_JawaIonBlaster</defName>
+    <label>Ion Blaster</label>
+    <description>Ion blasters are any handheld weapons that fired ion energy instead of blaster bolts. They were commonly used in response to droids and other technology on the battlefield.</description>
+    <graphicData>
+      <texPath>Things/Weapons/JawaIonBlaster</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <Mass>3.4</Mass>
+      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+      <WorkToMake>24000</WorkToMake>
+      <MarketValue>800</MarketValue>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <!-- <recipeUsers Inherit="False"> -->
+      <!-- <li>O21_OuterRim_WeaponsFabricator</li> -->
+      <!-- </recipeUsers> -->
+      <researchPrerequisite>O21_OuterRim_Jawa_Weapons</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <weaponTags>
+      <li>SWGun</li>
+      <li>JawaWeapons</li>
+      <li>GrenadeEMP</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>20</range>
+        <forcedMissRadius>0.1</forcedMissRadius>
+        <warmupTime>3</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>O21_Bullet_Ion_Energy</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.66</explosiveRadius>
+        <explosiveDamageType>EMP</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    <smeltProducts>
+      <Steel>10</Steel>
+    </smeltProducts>
+    <smeltable>true</smeltable>
+  </ThingDef>
+</Defs>

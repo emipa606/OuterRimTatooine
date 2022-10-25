@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Outer Rim Core Research-->
+  <ResearchProjectDef>
+    <!-- <tab>ResearchTab_OuterRim</tab> -->
+    <defName>O21_OuterRim_Tatooine</defName>
+    <label>Tatooine Tech</label>
+    <description>Entry research to tech from Tatooine.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>4.85</researchViewY>
+  </ResearchProjectDef>
+  <!-- Jawa -->
+  <ResearchProjectDef>
+    <!-- <tab>ResearchTab_OuterRim</tab> -->
+    <defName>O21_OuterRim_Jawa_Clothing</defName>
+    <label>Jawa Clothing</label>
+    <description>Basic Jawa apparel.</description>
+    <baseCost>200</baseCost>
+    <prerequisites>
+      <li>O21_OuterRim_Tatooine</li>
+      <!-- <li>O21_OuterRim_ApparelFabrication</li> -->
+    </prerequisites>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.85</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <!-- <tab>ResearchTab_OuterRim</tab> -->
+    <defName>O21_OuterRim_Jawa_Weapons</defName>
+    <label>Jawa Weapons</label>
+    <description>Jawa weapons.</description>
+    <baseCost>600</baseCost>
+    <prerequisites>
+      <li>O21_OuterRim_Tatooine</li>
+      <!-- <li>O21_OuterRim_WeaponsFabrication</li> -->
+    </prerequisites>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+  <!-- TuskenRaider -->
+  <ResearchProjectDef>
+    <!-- <tab>ResearchTab_OuterRim</tab> -->
+    <defName>O21_OuterRim_TuskenRaider_Clothing</defName>
+    <label>Tusken Raider Clothing</label>
+    <description>Basic Tusken Raider apparel.</description>
+    <baseCost>200</baseCost>
+    <prerequisites>
+      <li>O21_OuterRim_Tatooine</li>
+      <!-- <li>O21_OuterRim_ApparelFabrication</li> -->
+    </prerequisites>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.15</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <!-- <tab>ResearchTab_OuterRim</tab> -->
+    <defName>O21_OuterRim_TuskenRaider_Weapons</defName>
+    <label>Tusken Raider Weapons</label>
+    <description>Tusken Raider weapons.</description>
+    <baseCost>600</baseCost>
+    <prerequisites>
+      <li>O21_OuterRim_Tatooine</li>
+      <!-- <li>O21_OuterRim_WeaponsFabrication</li> -->
+    </prerequisites>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+</Defs>
