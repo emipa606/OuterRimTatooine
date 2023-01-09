@@ -68,3 +68,4 @@ If you find things unbalanced, please make suggestions for improvement.
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2390805026]Last updated 2023-01-09
